@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 @RequestMapping("/hello")
 public class HelloWorldController
 {
-	@RequestMapping("/showform")
+	@RequestMapping("/showForm")
 	public String showForm()
 	{
 		return "helloworld-form";
