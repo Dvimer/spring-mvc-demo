@@ -20,7 +20,11 @@
     C#: <form:radiobutton path="language" value="C#"/>
     C++: <form:radiobutton path="language" value="C++"/>
     PHP: <form:radiobutton path="language" value="PHP"/>
-
+    <br/>
+    Microsoft: <form:checkbox path="operatingSystem" value="Microsot"/>
+    Mac OS: <form:checkbox path="operatingSystem" value="Mac OS"/>
+    Linux: <form:checkbox path="operatingSystem" value="Linux"/>
+    <br/>
     <input type="submit" value="Submit">
 </form:form>
 <a href="/">Home</a>
